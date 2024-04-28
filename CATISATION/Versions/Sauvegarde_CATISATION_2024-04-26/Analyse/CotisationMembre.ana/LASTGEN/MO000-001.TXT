@@ -1,0 +1,8 @@
+//MO000-001.TXT ANA00000 TO ANA00001
+Membres		NFI		nouveau fichier
+Cotisation		NFI		nouveau fichier
+AnneeCotisation		NFI		nouveau fichier
+Categorie		NFI		nouveau fichier
+Contrainte_Categorie_Membres		NWL	Categorie (Categorie) et Membres (categorie)	Nouvelle liaison entre les fichiers Categorie (Categorie) et Membres (categorie)
+Contrainte_Membres_Cotisation		NWL	Membres (Matricule) et Cotisation (Matricule)	Nouvelle liaison entre les fichiers Membres (Matricule) et Cotisation (Matricule)
+Contrainte_AnneeCotisation_Cotisation		NWL	AnneeCotisation (Annee) et Cotisation (Annee)	Nouvelle liaison entre les fichiers AnneeCotisation (Annee) et Cotisation (Annee)
